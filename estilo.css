@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #0f0f0f;
+    color: white;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    z-index: 1000;
+}
+
+#logo {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: pricedown;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #00ff88;
+}
+
+.banner {
+    height: 100vh;
+    background-size: cover;
+    background-image: url("https://wallpapercat.com/w/full/e/5/1/2151151-3840x2160-desktop-4k-gta-san-andreas-wallpaper-photo.jpg");
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    margin-top: 80px;
+}
+
+main {
+    width: 75%;
+    padding: 20px;
+}
+aside {
+    width: 20%;
+    background: #1a1a1a;
+    padding: 15px;
+    border: 2px solid #610e6c;
+    font-size: 14px;
+}
+
+
+aside ul {
+    list-style: none;
+}
+
+aside li {
+    margin-bottom: 10px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: 200px;
+    background: #1a1a1a;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+}
+
+.card button {
+    margin-top: 10px;
+    padding: 5px;
+    border: none;
+    background: #610e6c;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #1a1a1a;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #121212;
+    margin-top: 20px;
+}
+
+#preto{
+    color: #0f0f0f;
+}
+
+#black{
+    color: #0f0f0f;
+}
